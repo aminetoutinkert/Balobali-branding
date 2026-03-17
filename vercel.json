@@ -4,7 +4,9 @@
     {
       "src": "client/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": {
+        "distDir": "dist"
+      }
     },
     {
       "src": "server/src/server.js",
@@ -18,11 +20,27 @@
     },
     {
       "src": "/ads/(.*)",
-      "dest": "server/public/ads/$1"
+      "dest": "client/ads/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "client/assets/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "client/favicon.ico"
+    },
+    {
+      "src": "/logo.png",
+      "dest": "client/logo.png"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "client/manifest.json"
     },
     {
       "src": "/(.*)",
-      "dest": "/client/$1"
+      "dest": "client/index.html"
     }
   ]
 }
