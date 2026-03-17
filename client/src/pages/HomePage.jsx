@@ -80,11 +80,35 @@ const HomePage = () => {
                   <p className="text-base md:text-xl text-white/80 mb-10 max-w-lg leading-relaxed font-light mx-auto md:mx-0">
                     {t('hero.subtext')}
                   </p>
-                  <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center md:justify-start">
-                    <Link to="/shop" className="btn-gold inline-flex items-center justify-center">
-                      <span>{t('hero.cta')}</span>
-                      <ArrowRight size={20} className="ml-2" />
-                    </Link>
+                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
+                    <motion.div
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.8 }}
+                    >
+                      <Link 
+                        to="/shop" 
+                        className="btn-gold group inline-flex items-center justify-center relative overflow-hidden"
+                      >
+                        <span className="relative z-10 flex items-center">
+                          {t('hero.cta')}
+                          <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                        </span>
+                        <motion.div 
+                          className="absolute inset-0 bg-white/20"
+                          initial={{ x: '-100%' }}
+                          animate={{ x: '100%' }}
+                          transition={{ 
+                            repeat: Infinity, 
+                            duration: 1.5, 
+                            ease: "linear",
+                            repeatDelay: 2
+                          }}
+                        />
+                      </Link>
+                    </motion.div>
                   </div>
                 </div>
               </div>

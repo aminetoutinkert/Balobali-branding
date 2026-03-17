@@ -23,6 +23,10 @@
       "dest": "client/ads/$1"
     },
     {
+      "src": "/(hero.*\\.(?:png|jpg|jpeg))",
+      "dest": "client/$1"
+    },
+    {
       "src": "/assets/(.*)",
       "dest": "client/assets/$1"
     },
