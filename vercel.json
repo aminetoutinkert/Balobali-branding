@@ -4,9 +4,7 @@
     {
       "src": "client/package.json",
       "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "config": { "distDir": "dist" }
     },
     {
       "src": "server/src/server.js",
@@ -18,13 +16,10 @@
       "src": "/api/(.*)",
       "dest": "server/src/server.js"
     },
-    {
-      "src": "/ads/(.*)",
-      "dest": "server/public/ads/$1"
-    },
+    { "handle": "filesystem" },
     {
       "src": "/(.*)",
-      "dest": "/client/$1"
+      "dest": "/index.html"
     }
   ]
 }
