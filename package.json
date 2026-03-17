@@ -1,0 +1,13 @@
+{
+  "name": "balobali-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "build:client": "cd client && npm install && npm run build",
+    "build:server": "cd server && npm install",
+    "build": "npm run build:client && npm run build:server"
+  }
+}

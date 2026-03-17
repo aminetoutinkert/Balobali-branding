@@ -4,6 +4,11 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import { connectDB } from "./config/db.js";
 import { notFound, errorHandler } from "./middlewares/errorMiddleware.js";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 import userRoutes from "./routes/userRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
@@ -27,8 +32,9 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(express.static("public"));
-app.use("/ads", express.static("public/ads"));
+const publicPath = path.resolve(__dirname, "../public");
+app.use(express.static(publicPath));
+app.use("/ads", express.static(path.join(publicPath, "ads")));
 
 // Routes
 app.use("/api/users", userRoutes);
