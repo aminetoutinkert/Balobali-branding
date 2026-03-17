@@ -16,26 +16,18 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/server/src/server.js"
+      "dest": "server/src/server.js"
     },
     {
       "src": "/ads/(.*)",
-      "headers": {
-        "cache-control": "public, max-age=86400"
-      },
-      "dest": "/server/public/ads/$1"
+      "dest": "server/public/ads/$1"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/client/dist/assets/$1"
-    },
-    {
-      "src": "/(.*)\\.(.*)",
-      "dest": "/client/dist/$1.$2"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/client/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }
