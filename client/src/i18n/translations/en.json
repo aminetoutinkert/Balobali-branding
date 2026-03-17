@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "cart": "Cart"
+  },
+  "hero": {
+    "tagline": "Pure Elegance, Absolute Comfort",
+    "subtext": "Discover our exclusive collection of Moroccan silk pajamas.",
+    "cta": "Discover the Collection"
+  },
+  "shop": {
+    "title": "Our Collection",
+    "filters": "Filters",
+    "sort": "Sort by",
+    "categories": "Categories",
+    "all": "All",
+    "price": "Price",
+    "new": "New",
+    "arrivals": "Arrivals",
+    "bestseller": "Bestseller",
+    "addToCart": "Add to Cart",
+    "items": "Items",
+    "categories_list": {
+      "Pajamas": "Pajamas",
+      "Loungewear": "Loungewear",
+      "Accessories": "Accessories",
+      "Sleepwear": "Sleepwear",
+      "Sample category": "Sample"
+    },
+    "sort_options": {
+      "newest": "Newest First",
+      "price-low": "Price: Low to High",
+      "price-high": "Price: High to Low"
+    }
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "quote": "Silk is not just a fabric, it's a caress. Each Balobali piece is a tribute to Moroccan craftsmanship and the sweetness of life.",
+    "text": "We select the finest silks to create garments that enhance your moments of rest. Between tradition and modernity, Balobali redefines luxury loungewear."
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Order on WhatsApp",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "emptySubtext": "Explore our collection and find the perfect piece for your exceptional nights.",
+    "summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "cod_notice": "Payment on delivery after confirmation on WhatsApp."
+  },
+  "product": {
+    "notFound": "Product not found",
+    "backToShop": "Back to shop",
+    "color": "Color",
+    "size": "Size",
+    "sizeGuide": "Size Guide",
+    "quantity": "Quantity",
+    "continueShopping": "Continue Shopping",
+    "expressShipping": "Express Shipping",
+    "securePayment": "Secure Payment",
+    "easyExchange": "Easy Exchange",
+    "youMayAlsoLike": "You may also like"
+  },
+  "modal": {
+    "title": "Finalize your order",
+    "subtitle": "Delivery information",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "city": "City",
+    "address": "Delivery Address",
+    "namePlaceholder": "Jane Doe",
+    "phonePlaceholder": "06 00 00 00 00",
+    "emailPlaceholder": "jane@example.com",
+    "cityPlaceholder": "Casablanca",
+    "addressPlaceholder": "Street, neighborhood, floor...",
+    "confirm": "CONFIRM ON WHATSAPP",
+    "redirectNotice": "YOU WILL BE REDIRECTED TO WHATSAPP TO FINALIZE YOUR PURCHASE WITH OUR ADVISORS."
+  },
+  "footer": {
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "whatsapp": {
+    "greeting": "Hello Balobali, I would like to order the following items:",
+    "addressPrompt": "Please provide your delivery address:"
+  }
+}

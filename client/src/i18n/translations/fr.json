@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "cart": "Panier"
+  },
+  "hero": {
+    "tagline": "Élégance Pure, Confort Absolu",
+    "subtext": "Découvrez notre collection exclusive de pyjamas en soie marocaine.",
+    "cta": "Découvrir la Collection"
+  },
+  "shop": {
+    "title": "Notre Collection",
+    "filters": "Filtres",
+    "sort": "Trier par",
+    "categories": "Catégories",
+    "all": "Tout",
+    "price": "Prix",
+    "new": "Nouveautés",
+    "arrivals": "Arrivages",
+    "bestseller": "Belles Ventes",
+    "addToCart": "Ajouter au panier",
+    "items": "Articles",
+    "categories_list": {
+      "Pajamas": "Pyjamas",
+      "Loungewear": "Loungewear",
+      "Accessories": "Accessoires",
+      "Sleepwear": "Nuisettes",
+      "Sample category": "Échantillon"
+    },
+    "sort_options": {
+      "newest": "Nouveautés",
+      "price-low": "Prix: Croissant",
+      "price-high": "Prix: Décroissant"
+    }
+  },
+  "philosophy": {
+    "title": "Notre Philosophie",
+    "quote": "La soie n'est pas seulement un tissu, c'est une caresse. Chaque pièce Balobali est un hommage à l'artisanat marocain et à la douceur de vivre.",
+    "text": "Nous sélectionnons les soies les plus fines pour créer des vêtements qui subliment vos moments de repos. Entre tradition et modernité, Balobali redéfinit le loungewear de luxe."
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "total": "Total",
+    "checkout": "Commander sur WhatsApp",
+    "quantity": "Quantité",
+    "remove": "Supprimer",
+    "emptySubtext": "Explorez notre collection et trouvez la pièce parfaite pour vos nuits d'exception.",
+    "summary": "Résumé de Commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuite",
+    "cod_notice": "Paiement à la livraison après confirmation sur WhatsApp."
+  },
+  "product": {
+    "notFound": "Produit non trouvé",
+    "backToShop": "Retour à la boutique",
+    "color": "Couleur",
+    "size": "Taille",
+    "sizeGuide": "Guide des tailles",
+    "quantity": "Quantité",
+    "continueShopping": "Continuer mes achats",
+    "expressShipping": "Livraison Express",
+    "securePayment": "Paiement Sécurisé",
+    "easyExchange": "Echange Facile",
+    "youMayAlsoLike": "Vous aimerez aussi"
+  },
+  "modal": {
+    "title": "Finaliser votre commande",
+    "subtitle": "Informations de livraison",
+    "fullName": "Nom Complet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "city": "Ville",
+    "address": "Adresse de Livraison",
+    "namePlaceholder": "Jean Dupont",
+    "phonePlaceholder": "06 00 00 00 00",
+    "emailPlaceholder": "jean@exemple.com",
+    "cityPlaceholder": "Casablanca",
+    "addressPlaceholder": "Rue, quartier, étage...",
+    "confirm": "CONFIRMER SUR WHATSAPP",
+    "redirectNotice": "VOUS SEREZ REDIRIGÉ VERS WHATSAPP POUR FINALISER VOTRE ACHAT AVEC NOS CONSEILLERS."
+  },
+  "footer": {
+    "connect": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  },
+  "whatsapp": {
+    "greeting": "Bonjour Balobali, je souhaite commander les articles suivants :",
+    "addressPrompt": "Veuillez indiquer votre adresse de livraison :"
+  }
+}
