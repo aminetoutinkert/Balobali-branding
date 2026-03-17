@@ -37,7 +37,7 @@ const CartPage = () => {
           <p className="text-gray-400 font-light mb-10 max-w-md mx-auto">
             {t('cart.emptySubtext')}
           </p>
-          <Link to="/shop" className="btn-gold inline-flex items-center space-x-2">
+          <Link to="/shop" className="btn-gold inline-flex items-center gap-2">
             <ArrowLeft size={18} />
             <span>{t('hero.cta')}</span>
           </Link>
@@ -58,7 +58,7 @@ const CartPage = () => {
               <motion.div 
                 layout
                 key={item._id}
-                className="bg-white p-6 flex items-center space-x-6 border border-gray-100 shadow-sm"
+                className="bg-white p-6 flex items-center gap-6 border border-gray-100 shadow-sm"
               >
                 <img 
                   src={item.images?.[0] || item.imagePath || 'https://via.placeholder.com/100x120'} 
@@ -69,7 +69,7 @@ const CartPage = () => {
                   <h3 className="font-playfair text-xl mb-1">{item.name}</h3>
                   <p className="text-sm text-gray-400 uppercase tracking-widest mb-4">{item.category}</p>
                   
-                  <div className="flex items-center space-x-4">
+                  <div className="flex items-center gap-4">
                     <div className="flex items-center border border-gray-200">
                       <button 
                         onClick={() => updateQuantity(item._id, item.quantity - 1)}
@@ -126,7 +126,7 @@ const CartPage = () => {
 
               <button 
                 onClick={handleWhatsAppCheckout}
-                className="w-full btn-gold flex items-center justify-center space-x-3 mb-4"
+                className="w-full btn-gold flex items-center justify-center gap-3 mb-4"
               >
                 <MessageSquare size={20} />
                 <span>{t('cart.checkout')}</span>
