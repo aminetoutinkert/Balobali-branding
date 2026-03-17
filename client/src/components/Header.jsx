@@ -68,9 +68,9 @@ const Header = () => {
         </div>
 
         {/* Actions - Right */}
-        <div className="flex-1 flex items-center justify-end space-x-4 md:space-x-8">
+        <div className="flex-1 flex items-center justify-end gap-4 md:gap-8">
           {/* Language Selector */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center gap-4">
             {languages.map((lang) => (
               <button
                 key={lang.code}
@@ -100,7 +100,7 @@ const Header = () => {
       {/* Mobile Drawer */}
       {isMenuOpen && (
         <div className="md:hidden absolute top-20 left-0 w-full bg-white border-b border-gray-100 animate-in slide-in-from-top duration-300">
-          <nav className="flex flex-col p-6 space-y-4">
+          <nav className="flex flex-col p-6 gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -111,7 +111,7 @@ const Header = () => {
                 {link.name}
               </Link>
             ))}
-            <div className="pt-4 border-t border-gray-100 flex items-center space-x-6">
+            <div className="pt-4 border-t border-gray-100 flex items-center gap-6">
               {languages.map((lang) => (
                 <button
                   key={lang.code}
