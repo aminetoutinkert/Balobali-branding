@@ -16,10 +16,13 @@
       "src": "/api/(.*)",
       "dest": "server/src/server.js"
     },
-    { "handle": "filesystem" },
+    {
+      "src": "/ads/(.*)",
+      "dest": "server/public/ads/$1"
+    },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/client/$1"
     }
   ]
 }
