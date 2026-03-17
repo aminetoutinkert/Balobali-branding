@@ -1,7 +1,7 @@
 import i18n from '../i18n/i18n';
 
 export const generateWhatsAppLink = (cart, totalPrice, clientInfo) => {
-  const phoneNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '212600000000';
+  const phoneNumber = import.meta.env.VITE_WHATSAPP_NUMBER || '212642853333';
   
   let message = `${i18n.t('whatsapp.greeting')}\n\n`;
   
